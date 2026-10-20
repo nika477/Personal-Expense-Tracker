@@ -1,71 +1,66 @@
-# Personal-Expense-Tracker
 
-Personal Expense Tracker
+# Personal Expense Tracker
 
-1. Project Description
+## 1. პროექტის აღწერა
 
-Personal Expense Tracker is a web application designed to help users manage their personal finances. Users can record income and expenses, view their transaction history, edit or delete their own transactions, and review monthly financial summaries. The system will include an administrator role for managing user accounts and financial categories. Administrators will not have access to users' personal financial transactions.
+Personal Expense Tracker არის ვებაპლიკაცია, რომელიც მომხმარებლებს ეხმარება პირადი ფინანსების მართვაში. სისტემის საშუალებით მომხმარებელი შეძლებს შემოსავლებისა და ხარჯების დამატებას, ფინანსური ჩანაწერების ნახვას, რედაქტირებას, წაშლასა და გაფილტვრას. აპლიკაცია ასევე უზრუნველყოფს ყოველთვიური ფინანსური შეჯამების ნახვას. სისტემას ექნება მომხმარებლისა და ადმინისტრატორის როლები, განსხვავებული უფლებებით.
 
-2. Stakeholders
+## 2. Stakeholders და მათი ინტერესები
 
-User
+- **მომხმარებელი (User):** სურს მარტივად აღრიცხოს შემოსავლები და ხარჯები და აკონტროლოს საკუთარი ფინანსები.
+- **ადმინისტრატორი (Administrator):** მართავს მომხმარებლების ანგარიშებსა და ფინანსურ კატეგორიებს, თუმცა არ აქვს მომხმარებლების პირადი ფინანსური ჩანაწერების ნახვის უფლება.
+- **პროექტის მფლობელი (Project Owner):** განსაზღვრავს პროექტის მიზნებსა და პრიორიტეტებს.
+- **ლექტორი / შემფასებელი:** აფასებს პროექტის მოთხოვნებს, Backlog-ს, MVP-სა და შესრულებულ სამუშაოს.
 
-Can register and log in.
+## 3. ფუნქციური მოთხოვნები
 
-Can add, view, edit, and delete their own transactions.
+სისტემა უნდა უზრუნველყოფდეს შემდეგ შესაძლებლობებს:
 
-Can view monthly income and expense summaries.
+1. მომხმარებლის რეგისტრაცია და სისტემაში შესვლა.
+2. შემოსავლის დამატება.
+3. ხარჯის დამატება.
+4. ტრანზაქციების ისტორიის ნახვა.
+5. საკუთარი ტრანზაქციის რედაქტირება და წაშლა.
+6. თვიური ფინანსური შეჯამების ნახვა.
+7. ტრანზაქციების გაფილტვრა თარიღისა და კატეგორიის მიხედვით.
+8. მომხმარებლებისა და ფინანსური კატეგორიების ადმინისტრირება.
 
-Needs privacy, security, and an easy-to-use interface.
+## 4. Non-Functional Requirements
 
-Administrator
+- **NFR-01 — შესრულების სისწრაფე:** სისტემის ძირითადი გვერდები ჩვეულებრივ პირობებში უნდა ჩაიტვირთოს არაუმეტეს 2 წამში.
+- **NFR-02 — ერთდროული მომხმარებლები:** სისტემამ უნდა უზრუნველყოს მინიმუმ 100 ერთდროული მომხმარებლის მხარდაჭერა მისაღები წარმადობით.
 
-Can manage user accounts and financial categories.
+*შენიშვნა: ეს მაჩვენებლები დაგეგმილი მოთხოვნებია და მათი შესრულება ტესტირებით უნდა დადასტურდეს.*
 
-Cannot view users' personal financial transactions.
+## 5. Definition of Done (DoD)
 
-Needs reliable administration tools and secure access.
+User Story დასრულებულად ჩაითვლება, როდესაც:
 
-Project Owner
+- ფუნქციონალი აკმაყოფილებს მის Acceptance Criteria-ს.
+- კოდი დაწერილი და შემოწმებულია.
+- ფუნქციონალი მუშაობს მოსალოდნელი შედეგით.
+- შეცდომები გამოსწორებულია.
+- ცვლილებები შენახულია GitHub Repository-ში.
+- საჭირო დოკუმენტაცია განახლებულია.
 
-Defines the project requirements and priorities.
+## 6. MVP Scope
 
-Decides which features are included in the MVP.
+MVP (Minimum Viable Product) არის პროდუქტის პირველი, მინიმალურად გამოსადეგი ვერსია.
 
-Checks whether the application meets the requirements.
+MVP-ში შევა შემდეგი ფუნქციები:
 
+- US-01 — რეგისტრაცია და სისტემაში შესვლა.
+- US-02 — შემოსავლის დამატება.
+- US-03 — ხარჯის დამატება.
+- US-04 — ტრანზაქციების ისტორიის ნახვა.
 
+MVP-ის მიზანია მომხმარებელმა შეძლოს სისტემაში შესვლა, შემოსავლებისა და ხარჯების აღრიცხვა და საკუთარი ფინანსური ჩანაწერების ნახვა.
 
-May request corrections if the requirements are not satisfied.
+**MVP-ის დაგეგმილი ჯამი:** 16 Story Points.
 
-3. Definition of Done (DoD)
+## 7. Backlog-ის შეჯამება
 
-A User Story is considered Done when:
+პროექტის Backlog მოიცავს 8 User Story-ს, რომელთაგან თითოეულს მინიჭებული აქვს პრიორიტეტი და Story Points. თითოეული User Story-ის აღწერა და Acceptance Criteria მოცემულია GitHub Projects-ის შესაბამის ბარათში.
 
-The functionality is implemented.
+**ყველა User Story-ის ჯამი:** 37 Story Points.
 
-Acceptance Criteria are satisfied.
-
-The functionality has been tested.
-
-No known critical errors remain.
-
-Changes are committed to GitHub.
-
-The documentation is updated when necessary.
-
-4. MVP Scope
-
-The Minimum Viable Product (MVP) will include the essential features needed to manage personal finances:
-
-User registration and login.
-
-Adding income and expenses.
-
-Viewing transaction history.
-
-Editing and deleting personal transactions.
-
-Viewing a monthly financial summary.
-
-Administrator management and advanced filtering may be implemented in later versions, depending on the final priorities.
